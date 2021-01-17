@@ -1,0 +1,54 @@
+String Programs:
+1. Write your name and reverse it - try different ways
+2. Find no.of 'a' in the string "amazon India"
+3. Write a program to concatenate 2 strings.
+4. Write a program to trim the String : " She sells sea shells on the sea shore ".
+5. Write a program to replace character ‘P’ with ‘F’ in the String:
+“Pan Pun Prank Pit Pat”
+---------------------------------------------------------------------------------------------------
+Programs:
+1. Java Program to Calculate average of numbers using Array
+Example:
+values [] = 1, 2,3 4, 5
+average = 3
+
+2. Find all the odd numbers from 79 to 187
+
+3. Is 13 a prime number ?
+
+4. Find the sum of digits
+Example:
+int n = 1234;
+output: 10
+
+5. Reverse a number 123
+
+6. Find the duplicates in an array 12, 32, 12, 45, 65, 93, 0, 23, 45, 6
+---------------------------------------------------------------------------------
+
+1. How data types are classified ?
+2. How many data types are available ?
+3. Explain why we need data types and real time usage. (3 or 4 lines)
+4. Explain with an example when we have to use if and switch ?
+
+---------------------------------------------------------------------------------
+Create a class Calculator.
+1. Create two methods (add , div)
+2. Create two methods (sub, mul)
+3. Call method and run the program in another classes in different packages
+
+1. Why we need access specifier ?
+2. What are the types available ?
+3. What are the operators available in Java ?
+
+-----------------------------------------------------------------------------
+1. What is an array?
+2. Why we need array?
+3. List out the ways to declare an array
+4. How to set value in an array?
+5. I am trying to access a value from an array that is not present in my array, what is the output?
+6. Declare an array of int and string
+7. What is the difference between property & method?
+
+1. What is difference between loop and enhanced for loop ?
+2. Write syntax for loop and enhanced loop and also an example
