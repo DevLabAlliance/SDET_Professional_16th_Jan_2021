@@ -6,6 +6,10 @@ public interface RBI {
 	
 	// abstract
 	void doKYC();
+		
+	default int getRateOfInterest() {
+		return 10;
+	}
 	
 	void panMandatory();
 

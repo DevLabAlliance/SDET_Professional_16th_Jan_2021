@@ -17,4 +17,9 @@ public class SBI implements RBI{
 		System.out.println("Attached");
 	}
 
+	public void someFuns() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
