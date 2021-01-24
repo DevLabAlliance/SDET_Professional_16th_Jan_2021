@@ -1,0 +1,64 @@
+1) How to find the maximum occurring character in a given String?
+e.g., if the input string is "Java" then the function should return 'a'.
+
+2) How to remove all duplicates from a given string?
+
+3) How to print the duplicate characters from the given String?
+
+4) How to remove characters from the first String which are present in the second String?
+ For example, if the first String "India is great" and second String is "in" then the output should be "da s great"
+
+5) How to check if two strings are rotations of each other? 
+ e.g. if a given String is "XYZ" and "ZXY" then your function should return true, but if the input is "XYZ" and "YXZ" then return false.
+
+6) How to reverse a given String? 
+
+7) How to reverse the words in a given String sentence?
+For example, if the input is "Java is best," then your program should print "best is Java"
+
+8)  How do you check if a given String is Palindrome or not?
+For example,"121" is a palindrome, but "123" is not
+
+9) How do you convert String to integer?
+
+10)  How do you remove a given character from String? 
+For example, if given String is "Programming" and given character to remove is "m" then your function should return "Prograing".
+
+11)  How do you count a number of words in String?
+For example, if input "Java is great" your program should print 3.
+
+--------------------------------------------
+1. Find the min and max number of given array?
+// input -> int[]a = {700, 100, 10, 6000};
+
+2. Write a program to find if the given program is Armstrong number or not ? (write pseudo code also)
+
+3. Write a java program to print factorial of a number.
+Input: 5
+Output: 120
+
+4. Prints true if n corresponds to a leap year, and false otherwise.
+java LeapYear 2004 => true
+java LeapYear 1900 => false
+java LeapYear 2000 => true
+
+---------------------------------------------------
+
+1. Write a program to illustrate about inheritance concept in java - Take any simple example
+2. Create an ArrayList and insert and retrieve value at a specified index.
+3. Replace an element at specified index in Arraylist
+4. Search an element of Java ArrayList
+5. Reverse an Arraylist.
+6. [1,2, 3,3, 56, 676, 34, 99] - sort the list
+7. [1,2, 3,3, 56, 676, 34, 99]  Remove the duplicates element
+
+Theoritical
+1. Explain the advantage and properties of List
+2. What are classes implemented in list interface
+3. What are classes implemented in set interface
+4. Difference between List & set
+5. What is polymorphism6. How can we prevent method overloading
+7. When overloading take place
+8. When .overriding takes place
+9. Write a note on constructor and its access specifier 
+10. Write a programe to demonstrate all the access modfier
