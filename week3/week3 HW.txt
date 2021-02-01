@@ -1,0 +1,50 @@
+1. Practice the followings:
+Instructions are given in the page itself
+
+-- Execute all the script in Chrome, Firefox, opera & Internet Explorer
+
+Inputs:
+https://devlabs-860f0.web.app/edit
+
+Buttons:
+https://devlabs-860f0.web.app/button
+
+RadioButtons:
+https://devlabs-860f0.web.app/radiobutton
+
+CheckBox:
+https://devlabs-860f0.web.app/checkbox
+------------------------------------------------------
+TC 001	
+1	Goto http://automationpractice.com/index.php
+2	Click on sign in
+3	Enter your email address
+4	Click on create account
+5	Fill all your personal detail in all the fileds
+6	Once registeration is success, sign out
+	
+TC 002	
+1	Goto http://automationpractice.com/index.php
+2	Click on sign in
+3	Enter email
+4	Enter password
+5	click on sign in
+6	validate page title must contains My account
+7	Click on My Personal information
+8	Click on update
+9	Change your password
+10	click save
+11	Validate update successful message as "Your personal information has been successfully updated."
+12	sign out 
+13	close the browser
+
+------------------------------------------------------
+1. What is Selenium ?
+2. What are the projects available in Selenium ?
+3. From where we can download Selenium dependency and jar file ?
+4. Explain about get method
+5. What is System.setProperty
+6. List down the locators type
+7. Which locator is preferred most ?
+8. Write a program to launch FireFox browser
+
