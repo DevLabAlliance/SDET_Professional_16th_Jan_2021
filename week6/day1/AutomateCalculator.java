@@ -1,4 +1,4 @@
-package week3.day2;
+package week6.day1;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class AutomateCalculator {
 	
-	@Test
+	@Test(invocationCount = 3, threadPoolSize = 2, description = "This will add 2 numbers")
 	public void calc() {
 		System.setProperty("webdriver.chrome.driver",
 				"./drivers/chromedriver.exe");
