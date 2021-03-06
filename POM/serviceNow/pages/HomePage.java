@@ -12,7 +12,11 @@ public class HomePage extends ServiceNowBase{
 	public void verifyTitle() {
 		System.out.println(driver.getTitle());
 	}
-	
+	public void welcome(String name) 
+	{
+		driver.findElementByXPath("//*[text()='Hey "+name+"']");
+	}
+
 	public HomePage validateCreateDBversion() {
 		driver.switchTo().frame("gsft_main");
 		WebElement btn = driver.findElementByXPath
