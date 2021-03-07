@@ -7,22 +7,24 @@ import PreAndPostServiceNow.ServiceNowBase;
 import serviceNow.pages.HomePage;
 import serviceNow.pages.LoginPage;
 
-public class TC001_Login extends ServiceNowBase{
+public class TC001_Login2 extends ServiceNowBase{
 
-	// tcoo1data
+	// tcoo2data
+	
+	
 	@BeforeTest
 	public void setData() {
-			excelFileName = "TC001Data";
+			excelFileName = "tcoo2data";
 	}
 	
-
-	@Test(dataProvider = "data")
-	public void loginIntoServiceNow(String user, String pass) {
+	@Test
+	public void loginIntoServiceNow() {
 
 		new LoginPage()
-		.enterUserName(user)
-		.enterPassword(pass)
-		.clickLoginButton();
+		.enterUserName("admin")
+		.enterPassword("JKaHY8lub4pL")
+		.clickLoginButton()
+		.welcome("admin");
 
 		new HomePage()
 		.validateCreateDBversion()

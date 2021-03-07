@@ -1,15 +1,27 @@
 package PreAndPostServiceNow;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
+import utils.ReadExcel;
+
 public class ServiceNowBase {
+	
+	protected String excelFileName;
+	
+	@DataProvider(name ="data")
+	public String[][] fetchData() throws IOException{
+		return ReadExcel.getData(this.excelFileName);
+	}
 
 	protected static RemoteWebDriver driver;
 	@Parameters({"url", "browser"})
