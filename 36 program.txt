@@ -1,0 +1,240 @@
+1. Write a Java Program to get a number in the console and print its factorial.
+2. Write a Java Program to find if the given number is a palindrome or not.
+3. Write a Java Program
+a. To get 3 user inputs
+• Two Numbers
+• One String which can be either of the below
+“Add”/”Subtract”/“Multiply”/”Divide”
+b. Perform the equivalent arithmetic operation.
+c. Print the result in the console.
+4. Write a Java Program to find if the given string
+is a palindrome or not.
+Write a Java Program to get two inputs numbers
+(a and b) from user and the print the numbers
+from a to b in the following pattern.
+1. If the number is divisible by 3 print FIZZ
+2. If the number is divisible by 5 print BUZZ
+3. If the number is divisible by 3 and 5 print FIZZBUZZ
+4. If not divisible by 3 or 5 print the number itself
+Input numbers : 8 16
+Output : 8 FIZZ BUZZ 11 FIZZ 13 14 FIZZBUZZ 16
+
+5. Write a Java Program to print the Armstrong
+number from 100 to 1000.
+
+6. Find repeated numbers in an Array List of
+numbers.
+
+Declare an int array like
+
+int[] a = {13,15,67,88,65,13,99,67,65,87,13}.
+
+The result should be – Duplicated numbers are 13 67 65
+
+7. Write a Java program to find out if the given
+year is a leap year or not.
+
+A year that is exactly divisible by four is a leap year, except for
+years that are exactly divisible by 100, but these centurial years
+are leap years if they are exactly divisible by 400. For example,
+the years 1700, 1800, and 1900 were not leap years, but the
+years 1600 and 2000 were.
+8. Write a Java program to find the second
+maximum number in an integer array.
+
+int[] intArray = {20, 340, 21, 879, 92, 21,474,83647,-200};
+The second largest number is 879.
+Your code should work even when all the integers of the array
+is negative numbers.
+9.Write a Java program to print Floyd triangle by
+getting the number of rows.
+
+Ex:- Enter the No. of rows: 4
+1
+2 3
+4 5 6
+7 8 9 10
+
+10. Write a Java method to check whether a string
+is a valid password.
+Password rules:
+A password must have at least ten characters.
+A password consists of only letters and digits.
+A password must contain at least two digits and two letters.
+A password must contain at least one Capital letter.
+
+11. Write a java program to find the percentage of
+uppercase letters, lowercase letters, digits and
+other special characters(including space) in the
+given string.
+For Ex- “Tiger Runs @ The Speed Of 100 km/hour.”,
+Number of uppercase letters is 5. So percentage is 13.16%
+Number of lowercase letters is 20. So percentage is 52.63%
+Number of digits is 3. So percentage is 7.89%
+Number of other characters is 10. So percentage is 26.32%
+
+12. Write a simple Java program to illustrate multi-
+level inheritance.
+
+Create classes like Vehicle, Car and Audi. Vehicle is Super class.
+Car extends Vehicle. Audi extends Car.
+Create default constructors in each class to print the class name.
+Create an object for the Audi class and check if all the class
+names are printed.
+
+13. Get two inputs(1 Number and 1 Digit) from
+user. Write a java program to find the largest
+number that is less than the given number and
+also should not contain the given digit.
+For ex, If 154 is the given number and 5 is the given digit, then
+you should find the largest number less than 154 such that it
+should not contain 5 in it. In this case, 149 will be the answer.
+
+14. Find the sum of all multiples of 3 or 5 less than
+100.
+ex - For 20, the multiples of 3 or 5 less than 20 are
+3,5,6,9,10,12,15,18. So their sum is 78.
+
+15. Write a simple Java program to print all factors
+of number using non-static method and print all
+prime factors of number using static method.
+ex - For 6, the factors are 1,2,3 and 6.
+For 24, the prime factors are 2 and 3.
+
+16. Write a simple Java program to construct a 4x4
+Matrix and print the matrix contents in spiral
+form.
+Ex -1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10.
+
+17. Write a simple Java program to print the
+numbers which has the greatest sum across the
+diagonal. Code must be generic for NxN matrix.
+Ex - 1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+The diagonal is 4,7,10,13. The numbers across the diagonal are 1,2,3,5,6,9 and
+8,11,12,14,15,16. Their sum is 26 and 76. So the output should be 8,11,12,14,15,16.
+
+18. Write a simple Java program to identify and
+form a string with unique characters.
+
+Ex. Input=Good Looking.
+Output should be = godlkin.
+
+Write a simple Java program to print the Pascal
+triangle till N rows by using static function.
+Ex. Input=5. Then the output should be.
+
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+
+19. Write a simple Java program to display the
+digits of the number in ascending order without
+duplicates.
+
+Ex. Input = 186553.
+Output = 13568.
+
+20. Write a simple Java program to reverse a String
+and a number using recursive functions.
+
+21. Recursive functions are the functions that calls itself
+repeatedly until a specific condition is met.
+
+22. Write a simple Java program to swap two
+Strings without using a third variable.
+
+23. Write a simple Java program to convert a String
+in lowercase to uppercase without using String
+functions.
+
+24. Write a simple Java program to print the longest
+positive sequence from given input of number
+and find the length of the sequence.
+
+Ex – Input = -1, 2, -3, -4, 5, 6, 7, -8, 9, 10
+Output = 5 6 7.
+Length is 3.
+
+25. Write a Java program to understand static and
+non-static keywords.
+– declare 2 String variables (1 static - "hello" and 1 non
+static - "world".
+– create two methods 1 static and 1 non static to print
+both variables.
+– create a main method to call both the methods.
+Expected o/p: Hello World should print twice.
+
+26. Write a Java program to get 3 digit number
+from the user and print all the possible
+combinations of the numbers with the digits
+present.(code should be generic for any digit
+number)
+Ex – Input – 123
+
+Output – 123 , 132 , 213 , 231 , 312 , 321
+
+27. Write a simple Java program to sort the
+HashMap based on the key.
+Sample:
+Before Sort: After Sort:
+21=Twenty One 21=Twenty One
+41=Thirty One 31=Thirty One
+31=Thirty One 41=Thirty One
+
+
+28. Write a simple Java program to replace two or
+more spaces with single space in string and
+delete only trailing space?
+Input : " aa bbbbb ccc d "
+Output : " aa bbbbb ccc d"
+
+29. Write a simple Java program to verify if the
+given String has exactly 5 digits in it.
+Input#1: "12345" Input#2: "123456" Input#3: "123.45"
+Output : true Output : false Output : false
+
+30. Write a simple Java program to find a number
+whether its a perfect number or not.
+A perfect number is a positive integer that is equal to the sum of
+its proper positive divisors, that is, the sum of its positive
+divisors excluding the number itself. Equivalently, a perfect
+number is a number that is half the sum of all of its positive
+divisors.
+
+Ex- 28 is a perfect number. 1+2+4+7+14 = 28
+and (1+2+4+7+14+28)/2=56/2 = 28
+
+31. Write a simple Java program to replace the
+special characters in a given String.
+
+Input = "{Java}/\\*(Selenium)“
+Output = "Java Selenium"
+
+32. Write a Java program to sort a Map based on the
+Values.
+
+Input : One=1, Seventeen=17, Twelve=12, Five=5, Two=2, Twenty Five=25
+Output : One=1, Two=2, Five=5, Twelve=12, Seventeen=17, Twenty Five=25
+
+
+33. Write a simple Java program to find the
+duplicate numbers in an int array and store in to
+a separate array.
+Ex - int a[] = {1,2,4,2,3,4,5,6,7,5};
+Output - Duplicated numbers are [2, 4, 5]
+
+36. Write a simple Java program to rearrange a
+given number in ascending order of their digits.
+Ex – Input - 19673
+Output - 13679
+
+
